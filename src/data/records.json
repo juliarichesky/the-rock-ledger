@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Nevermind",
+    "artist": "Nirvana",
+    "year": 1991,
+    "genre": "Grunge",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg",
+    "description": "The album that popularized grunge music worldwide.",
+    "tracks": ["Smells Like Teen Spirit", "In Bloom", "Come as You Are", "Lithium"]
+  },
+  {
+    "id": 2,
+    "title": "Abbey Road",
+    "artist": "The Beatles",
+    "year": 1969,
+    "genre": "Rock",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "description": "The last album the band recorded together.",
+    "tracks": ["Come Together", "Something", "Maxwell's Silver Hammer", "Oh! Darling"]
+  },
+  {
+    "id": 3,
+    "title": "Back in Black",
+    "artist": "AC/DC",
+    "year": 1980,
+    "genre": "Hard Rock",
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/b/be/ACDC_Back_in_Black.png",
+    "description": "One of the best-selling albums in music history.",
+    "tracks": ["Hells Bells", "Shoot to Thrill", "Back in Black", "You Shook Me All Night Long"]
+  }
+]

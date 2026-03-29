@@ -12,7 +12,7 @@ export default function Header() {
 
         {/* logo ajuste mobile */}
         <div className="flex items-center gap-2 group cursor-pointer">
-          <div className="bg-zinc-800 p-2 rounded-lg border border-zinc-700 group-hover:border-red-600 transition-all">
+          <div className="bg-zinc-900 p-2 rounded-lg border border-zinc-800 group-hover:border-red-600 transition-all">
             <Guitar className="w-5 h-5 md:w-6 md:h-6 text-red-500" />
           </div>
           <h1 className="text-lg md:text-xl font-black uppercase tracking-normal text-zinc-100">

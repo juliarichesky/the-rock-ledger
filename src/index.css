@@ -1,1 +1,44 @@
 @import "tailwindcss";
+
+/* customizando as bolinhas do swiper  */
+.featured-swiper .swiper-pagination-bullet {
+  background: theme("colors.zinc.700"); /* bolinha inativa */
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  transition: all 0.3s ease;
+  margin: 0 6px !important;
+}
+
+.featured-swiper .swiper-pagination-bullet-active {
+  background: theme("colors.red.600"); /* bolinha ativa */
+  width: 25px; /* efeito de "pílula" na bolinha ativa */
+  border-radius: 5px;
+}
+
+/* garante que o container das bolinhas tenha espaço */
+.featured-swiper .swiper-pagination {
+  bottom: 25px !important;
+}
+.featured-swiper .swiper-pagination {
+  bottom: 25px !important;
+  z-index: 50 !important; /* Garante que fiquem na frente de tudo */
+}
+
+/* ajuste para o efeito fade não sobrepor === */
+.featured-swiper .swiper-slide {
+  background-color: #09090b; /* bg-zinc-950 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* garante que o slide que está saindo suma completamente */
+.featured-swiper .swiper-slide-active {
+  z-index: 10;
+}
+
+.featured-swiper .swiper-slide-next,
+.featured-swiper .swiper-slide-prev {
+  opacity: 0 !important;
+}

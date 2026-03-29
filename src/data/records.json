@@ -28,5 +28,65 @@
     "cover": "https://upload.wikimedia.org/wikipedia/commons/b/be/ACDC_Back_in_Black.png",
     "description": "One of the best-selling albums in music history.",
     "tracks": ["Hells Bells", "Shoot to Thrill", "Back in Black", "You Shook Me All Night Long"]
+  },
+  {
+    "id": 4,
+    "title": "The Dark Side of the Moon",
+    "artist": "Pink Floyd",
+    "year": 1973,
+    "genre": "Progressive Rock",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png",
+    "description": "A masterpiece of sonic exploration and philosophical themes.",
+    "tracks": ["Time", "Money", "Us and Them", "Brain Damage"]
+  },
+  {
+    "id": 5,
+    "title": "Master of Puppets",
+    "artist": "Metallica",
+    "year": 1986,
+    "genre": "Thrash Metal",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b2/Metallica_-_Master_of_Puppets_cover.jpg",
+    "description": "Widely considered the greatest heavy metal album of all time.",
+    "tracks": ["Battery", "Master of Puppets", "Welcome Home (Sanitarium)", "Orion"]
+  },
+  {
+    "id": 6,
+    "title": "Led Zeppelin IV",
+    "artist": "Led Zeppelin",
+    "year": 1971,
+    "genre": "Hard Rock",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/26/Led_Zeppelin_-_Led_Zeppelin_IV.jpg",
+    "description": "Featuring the legendary 'Stairway to Heaven'.",
+    "tracks": ["Black Dog", "Rock and Roll", "Going to California", "When the Levee Breaks"]
+  },
+  {
+    "id": 7,
+    "title": "Hybrid Theory",
+    "artist": "Linkin Park",
+    "year": 2000,
+    "genre": "Nu Metal",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/2a/Linkin_Park_Hybrid_Theory_Album_Cover.jpg",
+    "description": "The best-selling debut album of the 21st century.",
+    "tracks": ["Papercut", "In the End", "Crawling", "One Step Closer"]
+  },
+  {
+    "id": 8,
+    "title": "Rumours",
+    "artist": "Fleetwood Mac",
+    "year": 1977,
+    "genre": "Soft Rock",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/fb/Fleetwood_Mac_Rumours_cover.jpg",
+    "description": "An album born from internal band drama and pure genius.",
+    "tracks": ["Dreams", "Go Your Own Way", "The Chain", "Don't Stop"]
+  },
+  {
+    "id": 9,
+    "title": "The Rise and Fall of Ziggy Stardust",
+    "artist": "David Bowie",
+    "year": 1972,
+    "genre": "Glam Rock",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/01/ZiggyStardust.jpg",
+    "description": "Bowie's concept album about an alien rock star.",
+    "tracks": ["Starman", "Ziggy Stardust", "Suffragette City", "Moonage Daydream"]
   }
 ]

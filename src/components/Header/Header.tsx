@@ -1,10 +1,10 @@
 import { Search, Guitar, Menu } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <header className="bg-zinc-950/90 backdrop-blur-md border-b border-zinc-800 sticky top-0 z-50">
       <div className="max-w-[1300px] mx-auto px-4 h-16 md:h-20 flex items-center justify-between">
-
         {/* menu mobile - 480px/sm) */}
         <button className="sm:hidden text-zinc-100 hover:text-red-500  hover:scale-110 transition-all p-1">
           <Menu size={24} />
@@ -26,9 +26,11 @@ export default function Header() {
             <li className="hover:text-red-500 cursor-pointer transition-colors">
               Home
             </li>
-            <li className="hover:text-red-500 cursor-pointer transition-colors">
-              Genres
-            </li>
+            <Link to="/genres">
+              <li className="hover:text-red-500 cursor-pointer transition-colors">
+                Genres
+              </li>
+            </Link>
             <li className="hover:text-red-500 cursor-pointer transition-colors">
               Contact
             </li>

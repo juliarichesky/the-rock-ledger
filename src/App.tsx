@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home/Home";
 import AllRecords from "./pages/AllRecords/AllRecords";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import RecordDetails from "./pages/RecordDetails/RecordDetails";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/all-records" element={<AllRecords />} />
+          <Route path="/record/:id" element={<RecordDetails />} />
         </Routes>
       </main>
       <Footer />

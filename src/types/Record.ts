@@ -6,4 +6,5 @@ export interface Record {
   genre: string;
   cover: string;
   description: string;
+  tracks: string[];
 }

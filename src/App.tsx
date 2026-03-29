@@ -3,10 +3,12 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home/Home";
 import AllRecords from "./pages/AllRecords/AllRecords";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 export default function App() {
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-100 flex flex-col font-sans">
+      <ScrollToTop />
       <Header />
       <main className="flex-grow">
         <Routes>
@@ -18,3 +20,5 @@ export default function App() {
     </div>
   );
 }
+
+

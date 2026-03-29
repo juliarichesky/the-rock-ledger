@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+html,
+body {
+  background-color: #09090b;
+}
+
 /* customizando as bolinhas do swiper  */
 .featured-swiper .swiper-pagination-bullet {
   background: theme("colors.zinc.700"); /* bolinha inativa */

@@ -108,6 +108,7 @@ export default function Header() {
               />{" "}
               Home
             </Link>
+
             <Link
               to="/genres"
               onClick={() => setIsMenuOpen(false)}
@@ -119,13 +120,30 @@ export default function Header() {
               />{" "}
               Genres
             </Link>
-            <li className="flex items-center gap-4 text-zinc-400 hover:text-red-500 font-bold uppercase tracking-widest text-sm transition-colors group cursor-pointer list-none">
+
+            <Link
+              to="/all-records"
+              onClick={() => setIsMenuOpen(false)}
+              className="flex items-center gap-4 text-zinc-400 hover:text-red-500 font-bold uppercase tracking-widest text-sm transition-colors group"
+            >
+              <Disc
+                size={20}
+                className="group-hover:scale-110 transition-transform"
+              />{" "}
+              Albums
+            </Link>
+
+            <Link
+              to="/contact"
+              onClick={() => setIsMenuOpen(false)}
+              className="flex items-center gap-4 text-zinc-400 hover:text-red-500 font-bold uppercase tracking-widest text-sm transition-colors group"
+            >
               <Mail
                 size={20}
                 className="group-hover:scale-110 transition-transform"
               />{" "}
               Contact
-            </li>
+            </Link>
           </nav>
         </div>
       </aside>

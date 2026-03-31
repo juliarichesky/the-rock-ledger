@@ -5,7 +5,8 @@
     "artist": "Nirvana",
     "year": 1991,
     "genre": "Grunge",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg",
+    "cover": "/covers/nevermind.jpg",
+    "spotifyId": "2UJcKiJxNryhL050F5Z1Fk",
     "description": "The album that popularized grunge music worldwide.",
     "tracks": ["Smells Like Teen Spirit", "In Bloom", "Come as You Are", "Lithium"]
   },
@@ -15,7 +16,8 @@
     "artist": "The Beatles",
     "year": 1969,
     "genre": "Rock",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "cover": "/covers/abbey-road.jpg",
+    "spotifyId": "0ETFjACtuP2ADo6LFhL6HN",
     "description": "The last album the band recorded together.",
     "tracks": ["Come Together", "Something", "Maxwell's Silver Hammer", "Oh! Darling"]
   },
@@ -25,7 +27,8 @@
     "artist": "AC/DC",
     "year": 1980,
     "genre": "Hard Rock",
-    "cover": "https://upload.wikimedia.org/wikipedia/commons/b/be/ACDC_Back_in_Black.png",
+    "cover": "/covers/back-in-black.jpg",
+    "spotifyId": "6mUdeDZCsExyJLMdAfDuwh",
     "description": "One of the best-selling albums in music history.",
     "tracks": ["Hells Bells", "Shoot to Thrill", "Back in Black", "You Shook Me All Night Long"]
   },
@@ -35,7 +38,8 @@
     "artist": "Pink Floyd",
     "year": 1973,
     "genre": "Progressive Rock",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png",
+    "cover": "/covers/the-dark-side-of-the-moon.jpg",
+    "spotifyId": "4LH4d3cOWNNsVw41Gqt2kv",
     "description": "A masterpiece of sonic exploration and philosophical themes.",
     "tracks": ["Time", "Money", "Us and Them", "Brain Damage"]
   },
@@ -45,7 +49,8 @@
     "artist": "Metallica",
     "year": 1986,
     "genre": "Thrash Metal",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b2/Metallica_-_Master_of_Puppets_cover.jpg",
+    "cover": "/covers/master-of-puppets.jpg",
+    "spotifyId": "2Lq2qX3hYhiuPckC8Flj21",
     "description": "Widely considered the greatest heavy metal album of all time.",
     "tracks": ["Battery", "Master of Puppets", "Welcome Home (Sanitarium)", "Orion"]
   },
@@ -55,7 +60,8 @@
     "artist": "Led Zeppelin",
     "year": 1971,
     "genre": "Hard Rock",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/2/26/Led_Zeppelin_-_Led_Zeppelin_IV.jpg",
+    "cover": "/covers/led-zeppelin-iv.jpg",
+    "spotifyId": "5EyIDBAqhnlkAHqvPRwdbX",
     "description": "Featuring the legendary 'Stairway to Heaven'.",
     "tracks": ["Black Dog", "Rock and Roll", "Going to California", "When the Levee Breaks"]
   },
@@ -65,7 +71,8 @@
     "artist": "Linkin Park",
     "year": 2000,
     "genre": "Nu Metal",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/2/2a/Linkin_Park_Hybrid_Theory_Album_Cover.jpg",
+    "cover": "/covers/hybrid-theory.jpg",
+    "spotifyId": "6PFPjumGRpZnBzqnDci6qJ",
     "description": "The best-selling debut album of the 21st century.",
     "tracks": ["Papercut", "In the End", "Crawling", "One Step Closer"]
   },
@@ -75,7 +82,8 @@
     "artist": "Fleetwood Mac",
     "year": 1977,
     "genre": "Soft Rock",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/f/fb/Fleetwood_Mac_Rumours_cover.jpg",
+    "cover": "/covers/rumours.jpg",
+    "spotifyId": "1bt6q2SruMsBtcerNVtpZB",
     "description": "An album born from internal band drama and pure genius.",
     "tracks": ["Dreams", "Go Your Own Way", "The Chain", "Don't Stop"]
   },
@@ -85,7 +93,8 @@
     "artist": "David Bowie",
     "year": 1972,
     "genre": "Glam Rock",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/0/01/ZiggyStardust.jpg",
+    "cover": "/covers/the-rise-and-fall-of-ziggy-stardust.jpg",
+    "spotifyId": "48D1hRORqJq52qsnUYZX56",
     "description": "Bowie's concept album about an alien rock star.",
     "tracks": ["Starman", "Ziggy Stardust", "Suffragette City", "Moonage Daydream"]
   }

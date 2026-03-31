@@ -84,7 +84,28 @@ export default function RecordDetails() {
             </p>
           </section>
 
-          <section>
+          {/* 🎸 Spotify Player Section */}
+          {record.spotifyId && (
+            <section className="animate-in slide-in-from-bottom-4 duration-1000 delay-300">
+              <h3 className="text-zinc-100 font-bold mb-6 uppercase tracking-[0.2em] text-xs flex items-center gap-2">
+                <Play size={16} className="text-red-600" fill="currentColor" />
+                Listen on Spotify
+              </h3>
+              <iframe
+                style={{ borderRadius: "12px" }}
+                src={`https://open.spotify.com/embed/album/${record.spotifyId}?utm_source=generator&theme=0`}
+                width="100%"
+                height="500"
+                frameBorder="0"
+                allowFullScreen
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+                className="border border-zinc-800 shadow-2xl"
+              ></iframe>
+            </section>
+          )}
+
+          {/* <section>
             <div className="flex items-center justify-between mb-8 border-b border-zinc-900 pb-4">
               <h3 className="text-xl font-bold uppercase tracking-[0.1em] flex items-center gap-3">
                 <Disc
@@ -120,7 +141,7 @@ export default function RecordDetails() {
                 </div>
               ))}
             </div>
-          </section>
+          </section> */}
         </div>
       </div>
     </div>

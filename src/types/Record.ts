@@ -6,5 +6,6 @@ export interface Record {
   genre: string;
   cover: string;
   description: string;
+  spotifyId?: string;
   tracks: string[];
 }

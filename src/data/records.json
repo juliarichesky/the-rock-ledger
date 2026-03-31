@@ -8,7 +8,12 @@
     "cover": "/covers/nevermind.jpg",
     "spotifyId": "2UJcKiJxNryhL050F5Z1Fk",
     "description": "The album that popularized grunge music worldwide.",
-    "tracks": ["Smells Like Teen Spirit", "In Bloom", "Come as You Are", "Lithium"]
+    "tracks": [
+      "Smells Like Teen Spirit",
+      "In Bloom",
+      "Come as You Are",
+      "Lithium"
+    ]
   },
   {
     "id": 2,
@@ -19,7 +24,12 @@
     "cover": "/covers/abbey-road.jpg",
     "spotifyId": "0ETFjACtuP2ADo6LFhL6HN",
     "description": "The last album the band recorded together.",
-    "tracks": ["Come Together", "Something", "Maxwell's Silver Hammer", "Oh! Darling"]
+    "tracks": [
+      "Come Together",
+      "Something",
+      "Maxwell's Silver Hammer",
+      "Oh! Darling"
+    ]
   },
   {
     "id": 3,
@@ -30,7 +40,12 @@
     "cover": "/covers/back-in-black.jpg",
     "spotifyId": "6mUdeDZCsExyJLMdAfDuwh",
     "description": "One of the best-selling albums in music history.",
-    "tracks": ["Hells Bells", "Shoot to Thrill", "Back in Black", "You Shook Me All Night Long"]
+    "tracks": [
+      "Hells Bells",
+      "Shoot to Thrill",
+      "Back in Black",
+      "You Shook Me All Night Long"
+    ]
   },
   {
     "id": 4,
@@ -52,7 +67,12 @@
     "cover": "/covers/master-of-puppets.jpg",
     "spotifyId": "2Lq2qX3hYhiuPckC8Flj21",
     "description": "Widely considered the greatest heavy metal album of all time.",
-    "tracks": ["Battery", "Master of Puppets", "Welcome Home (Sanitarium)", "Orion"]
+    "tracks": [
+      "Battery",
+      "Master of Puppets",
+      "Welcome Home (Sanitarium)",
+      "Orion"
+    ]
   },
   {
     "id": 6,
@@ -63,7 +83,12 @@
     "cover": "/covers/led-zeppelin-iv.jpg",
     "spotifyId": "5EyIDBAqhnlkAHqvPRwdbX",
     "description": "Featuring the legendary 'Stairway to Heaven'.",
-    "tracks": ["Black Dog", "Rock and Roll", "Going to California", "When the Levee Breaks"]
+    "tracks": [
+      "Black Dog",
+      "Rock and Roll",
+      "Going to California",
+      "When the Levee Breaks"
+    ]
   },
   {
     "id": 7,
@@ -96,6 +121,50 @@
     "cover": "/covers/the-rise-and-fall-of-ziggy-stardust.jpg",
     "spotifyId": "48D1hRORqJq52qsnUYZX56",
     "description": "Bowie's concept album about an alien rock star.",
-    "tracks": ["Starman", "Ziggy Stardust", "Suffragette City", "Moonage Daydream"]
+    "tracks": [
+      "Starman",
+      "Ziggy Stardust",
+      "Suffragette City",
+      "Moonage Daydream"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Ten",
+    "artist": "Pearl Jam",
+    "year": 1991,
+    "genre": "Grunge",
+    "cover": "/covers/ten.jpg",
+    "spotifyId": "5B4PYA7wNN4WdEXdIJu58a",
+    "description": "A defining album of the grunge era.",
+    "tracks": ["Alive", "Even Flow", "Jeremy", "Black"]
+  },
+  {
+    "id": 11,
+    "title": "A.M",
+    "artist": "Arctic Monkeys",
+    "year": 2013,
+    "genre": "Indie Rock",
+    "cover": "/covers/am.jpg",
+    "spotifyId": "78bpIziExqiI9qztvNFlQu",
+    "description": "A indie rock album with a mix of hip-hop and R&B influences.",
+    "tracks": [
+      "One For The Road",
+      "Do I Wanna Know?",
+      "R U Mine?",
+      "Arabella",
+      "I Wanna Be Yours"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "In Utero",
+    "artist": "Nirvana",
+    "year": 1993,
+    "genre": "Grunge",
+    "cover": "/covers/in-utero.jpg",
+    "spotifyId": "5B4PYA7wNN4WdEXdIJu58a",
+    "description": "Nirvana's third studio album and a defining work of the grunge movement.",
+    "tracks": ["Serve the Servants", "Scentless Apprentice", "Heart-Shaped Box"]
   }
 ]

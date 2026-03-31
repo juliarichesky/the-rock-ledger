@@ -88,3 +88,14 @@ body {
     font-size: 0.5em;
   }
 }
+
+/* chrome, edge, safari) */
+::selection {
+  background-color: #dc2626;
+  color: #ffffff;
+}
+/* firefox */
+::-moz-selection {
+  background-color: #dc2626;
+  color: #ffffff;
+}

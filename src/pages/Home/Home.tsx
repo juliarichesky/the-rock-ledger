@@ -3,6 +3,7 @@ import RecordCard from "../../components/RecordCard/RecordCard";
 import recordsData from "../../data/records.json";
 import { type Record } from "../../types/Record";
 import FeaturedSlider from "../../components/FeaturedSlider/FeaturedSlider";
+import Newsletter from "../../components/Newsletter/Newsletter";
 
 export default function Home() {
   const records: Record[] = recordsData;
@@ -34,6 +35,9 @@ export default function Home() {
             See All Albums
           </Link>
         </div>
+
+
+        <Newsletter />
       </div>
     </>
   );

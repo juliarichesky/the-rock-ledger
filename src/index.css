@@ -47,3 +47,44 @@ body {
 .featured-swiper .swiper-slide-prev {
   opacity: 0 !important;
 }
+
+.swiper-pagination-bullet {
+  background: #3f3f46 !important;
+  opacity: 1 !important;
+}
+.swiper-pagination-bullet-active {
+  background: #dc2626 !important;
+  width: 24px !important;
+  border-radius: 4px !important;
+  transition: all 0.3s !important;
+}
+
+@media (min-width: 768px) {
+  .image-mask {
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      rgba(0, 0, 0, 0.02) 10%,
+      rgba(0, 0, 0, 0.1) 30%,
+      rgba(0, 0, 0, 0.4) 55%,
+      rgba(0, 0, 0, 0.8) 80%,
+      black 100%
+    );
+    mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      rgba(0, 0, 0, 0.02) 10%,
+      rgba(0, 0, 0, 0.1) 30%,
+      rgba(0, 0, 0, 0.4) 55%,
+      rgba(0, 0, 0, 0.8) 80%,
+      black 100%
+    );
+  }
+}
+
+@media (max-width: 767px) {
+  .text-slide {
+    color: white;
+    font-size: 0.5em;
+  }
+}

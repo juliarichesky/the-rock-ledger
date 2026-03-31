@@ -6,6 +6,7 @@ import AllRecords from "./pages/AllRecords/AllRecords";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import RecordDetails from "./pages/RecordDetails/RecordDetails";
 import Genres from "./pages/Genres/Genres";
+import Contact from "./pages/Contact/Contact";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/all-records" element={<AllRecords />} />
           <Route path="/record/:id" element={<RecordDetails />} />
           <Route path="/genres" element={<Genres />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
       <Footer />

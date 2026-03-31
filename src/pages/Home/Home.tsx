@@ -29,9 +29,9 @@ export default function Home() {
         <div className="flex justify-center mt-12">
           <Link
             to="/all-records"
-            className="bg-zinc-900 border border-zinc-800 hover:border-red-600 px-8 py-3 rounded-full font-bold uppercase text-xs tracking-widest transition-all"
+            className="bg-zinc-900 border border-zinc-800 hover:border-red-600 px-8 py-3 rounded-full font-bold uppercase text-xs tracking-widest transition-all hover:scale-105 shadow-lg shadow-gray-800/20"
           >
-            See All Discos
+            See All Albums
           </Link>
         </div>
       </div>

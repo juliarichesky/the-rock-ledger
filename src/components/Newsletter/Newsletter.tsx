@@ -3,11 +3,10 @@ import { Send } from "lucide-react";
 import Swal from "sweetalert2";
 
 export default function Newsletter() {
-  // 1️⃣ Estado para o email e para o erro
+  // estado para o email e para o erro
   const [email, setEmail] = useState("");
   const [error, setError] = useState("");
 
-  // 2️⃣ Função de validação idêntica à do seu Contact
   const validate = () => {
     if (!email.includes("@") || email.length < 5) {
       setError("Enter a valid email address.");
@@ -17,7 +16,7 @@ export default function Newsletter() {
     return true;
   };
 
-  // 3️⃣ Função de Submit com o SweetAlert estilizado
+  // função de submit com o sweetalert estilizado
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
@@ -38,12 +37,12 @@ export default function Newsletter() {
         },
       });
 
-      setEmail(""); // Reseta o campo após o sucesso
+      setEmail(""); // reseta o campo após o sucesso
     }
   };
 
   return (
-    <section className="w-full bg-zinc-950 pt-20 pb-0 px-6 relative overflow-hidden">
+    <section className="w-full bg-zinc-950 mt-10 pt-20 pb-0 px-6 relative overflow-hidden">
       <div className="max-w-[1200px] mx-auto bg-zinc-900/50 border border-zinc-800 p-8 md:p-16 rounded-[40px] flex flex-col md:flex-row items-center justify-between gap-10 relative z-10 backdrop-blur-sm">
         <div className="max-w-md text-center md:text-left">
           <span className="text-red-600 font-bold uppercase tracking-[0.3em] text-xs mb-4 block">
@@ -58,9 +57,9 @@ export default function Newsletter() {
           </p>
         </div>
 
-        {/* 4️⃣ Adicionado o onSubmit e o noValidate */}
-        <form 
-          className="w-full max-w-md flex flex-col gap-2" 
+        {/* adicionado o onSubmit e o noValidate */}
+        <form
+          className="w-full max-w-md flex flex-col gap-2"
           onSubmit={handleSubmit}
           noValidate
         >
@@ -85,7 +84,7 @@ export default function Newsletter() {
             </button>
           </div>
 
-          {/* 6️⃣ Mensagem de erro sutil abaixo do input */}
+          {/* mensagem de erro sutil abaixo do input */}
           {error && (
             <span className="text-[10px] text-red-500 uppercase font-black tracking-widest mt-1 ml-6">
               {error}

@@ -81,13 +81,6 @@ export default function AllRecords() {
           <RecordCard key={disco.id} record={disco} />
         ))}
       </div>
-
-      {/* lista vazia */}
-      {filteredRecords.length === 0 && (
-        <div className="py-20 text-center text-zinc-600 uppercase text-xs tracking-widest font-bold">
-          Nenhum disco encontrado nesta categoria.
-        </div>
-      )}
     </div>
   );
 }

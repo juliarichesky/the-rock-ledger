@@ -7,6 +7,7 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import RecordDetails from "./pages/RecordDetails/RecordDetails";
 import Genres from "./pages/Genres/Genres";
 import Contact from "./pages/Contact/Contact";
+import NotFound from "./components/NotFound/NotFound";
 
 export default function App() {
   return (
@@ -20,11 +21,10 @@ export default function App() {
           <Route path="/record/:id" element={<RecordDetails />} />
           <Route path="/genres" element={<Genres />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />
     </div>
   );
 }
-
-

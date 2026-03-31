@@ -2,6 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { ChevronRight, Play, Disc, Calendar, Tag, Info } from "lucide-react";
 import recordsData from "../../data/records.json";
 import { type Record } from "../../types/Record";
+import NotFound from "../../components/NotFound/NotFound";
 
 export default function RecordDetails() {
   const { id } = useParams();
@@ -11,21 +12,10 @@ export default function RecordDetails() {
 
   if (!record) {
     return (
-      <div className="max-w-[1300px] mx-auto w-full px-6 py-24 text-center">
-        <Disc
-          size={48}
-          className="mx-auto text-zinc-800 mb-4 animate-spin-slow"
-        />
-        <h2 className="text-2xl font-black uppercase text-zinc-100">
-          Album not found
-        </h2>
-        <Link
-          to="/"
-          className="text-red-600 mt-4 inline-block hover:underline font-bold uppercase text-xs tracking-widest"
-        >
-          Return to Home
-        </Link>
-      </div>
+      <NotFound
+        title="Album Not Found"
+        message="This vinyl seems to have been smashed or lost in the backstage. Try searching for another classic!"
+      />
     );
   }
 

@@ -10,7 +10,7 @@ import recordsData from "../../data/records.json";
 
 export default function FeaturedSlider() {
   const featuredRecords = useMemo(() => {
-    return [...recordsData].sort(() => Math.random() - 0.5).slice(0, 3);
+    return [...recordsData].sort(() => Math.random() - 0.5).slice(0, 5);
   }, []);
 
   return (

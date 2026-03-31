@@ -17,7 +17,6 @@ export default function Header() {
   const navigate = useNavigate();
   const searchRef = useRef<HTMLDivElement>(null);
 
-  // states
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false); // novo estado (menu lateral)
   const [searchTerm, setSearchTerm] = useState("");
@@ -73,13 +72,11 @@ export default function Header() {
 
   return (
     <>
-      {/* overlay quando o menu abre */}
       <div
         className={`fixed inset-0 bg-black/60 backdrop-blur-sm z-[60] transition-opacity duration-500 ${isMenuOpen ? "opacity-100" : "opacity-0 pointer-events-none"}`}
         onClick={() => setIsMenuOpen(false)}
       />
 
-      {/* menu hamburguer */}
       <aside
         className={`fixed top-0 left-0 h-full w-[280px] bg-zinc-950 border-r border-zinc-900 z-[70] transition-transform duration-500 ease-in-out shadow-2xl ${isMenuOpen ? "translate-x-0" : "-translate-x-full"}`}
       >
@@ -153,7 +150,6 @@ export default function Header() {
           className="max-w-[1300px] mx-auto px-4 h-16 md:h-20 flex items-center justify-between relative"
           ref={searchRef}
         >
-          {/* menu mobile */}
           {!isSearchOpen && (
             <button
               onClick={() => setIsMenuOpen(true)}
@@ -163,7 +159,6 @@ export default function Header() {
             </button>
           )}
 
-          {/* logo */}
           <Link
             to="/"
             className={`flex items-center gap-2 group cursor-pointer ${isSearchOpen ? "hidden sm:flex" : "flex"}`}
@@ -176,7 +171,6 @@ export default function Header() {
             </h1>
           </Link>
 
-          {/* navbar desktop */}
           {!isSearchOpen && (
             <nav className="hidden sm:block">
               <ul className="flex gap-4 md:gap-8 text-[10px] md:text-xs font-bold uppercase tracking-[0.2em] text-zinc-400">
@@ -204,7 +198,6 @@ export default function Header() {
             </nav>
           )}
 
-          {/* area de busca */}
           <div
             className={`flex items-center justify-end transition-all duration-500 ease-in-out ${isSearchOpen ? "flex-1 ml-4" : "w-10"}`}
           >

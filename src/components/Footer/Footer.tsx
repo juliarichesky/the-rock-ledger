@@ -7,11 +7,7 @@ export default function Footer() {
   return (
     <footer className="bg-zinc-950 border-t border-zinc-900 pt-16 pb-8 mt-20">
       <div className="max-w-[1300px] mx-auto px-6">
-
-        {/* grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-
-          {/* branding / sobre */}
           <div className="space-y-6">
             <Link to="/" className="flex items-center gap-2 group">
               <div className="bg-zinc-900 p-2 rounded-lg border border-zinc-800 group-hover:border-red-600 transition-all">

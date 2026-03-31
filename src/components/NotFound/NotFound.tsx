@@ -41,7 +41,6 @@ export default function NotFound({
         {message}
       </p>
 
-      {/* botao */}
       {showButton && (
         <Link
           to="/"

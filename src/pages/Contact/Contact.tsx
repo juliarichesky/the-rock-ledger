@@ -4,17 +4,14 @@ import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 
 export default function Contact() {
-  // estados para campos do formulario
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
 
-  // estados para mensagens de erro individuais
   const [errors, setErrors] = useState({ name: "", email: "", message: "" });
 
-  // funçao de validaçao
   const validate = () => {
     const tempErrors = { name: "", email: "", message: "" };
     let isValid = true;
@@ -24,7 +21,6 @@ export default function Contact() {
       isValid = false;
     }
 
-    // validaçao de email simples com @
     if (!formData.email.includes("@") || formData.email.length < 5) {
       tempErrors.email = "Enter a valid email address.";
       isValid = false;
@@ -39,19 +35,17 @@ export default function Contact() {
     return isValid;
   };
 
-  // função de envio (submit)
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
     if (validate()) {
-      // exibe o alerta customizado dark e red
       Swal.fire({
         title: "MESSAGE SENT!",
         text: "We'll get back to you faster than a guitar solo!",
         icon: "success",
-        background: "#09090b", // zinc-950
-        color: "#f4f4f5", // zinc-100
-        confirmButtonColor: "#dc2626", // red-600
+        background: "#09090b",
+        color: "#f4f4f5",
+        confirmButtonColor: "#dc2626",
         confirmButtonText: "OK!",
         buttonsStyling: true,
         customClass: {
@@ -61,7 +55,6 @@ export default function Contact() {
         },
       });
 
-      // reseta o formulário apos sucesso
       setFormData({ name: "", email: "", message: "" });
     }
   };
@@ -86,11 +79,8 @@ export default function Contact() {
         </p>
       </header>
 
-      {/* grid */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-start">
-        {/* form+map */}
         <div className="flex flex-col gap-16 order-2 lg:order-1">
-          {/* form */}
           <section>
             <form
               className="flex flex-col gap-6"
@@ -198,7 +188,6 @@ export default function Contact() {
           </section>
         </div>
 
-        {/* coluna direita */}
         <section className="order-1 lg:order-2 flex flex-col gap-8 lg:sticky lg:top-24">
           <div className="bg-zinc-900/50 border border-zinc-800 p-8 rounded-3xl backdrop-blur-sm shadow-xl">
             <h3 className="text-zinc-100 font-black uppercase text-xl mb-8">

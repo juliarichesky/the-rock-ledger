@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import { ChevronRight, Play, Disc, Calendar, Tag, Info } from "lucide-react";
+import { ChevronRight, Play, Calendar, Tag, Info } from "lucide-react";
 import recordsData from "../../data/records.json";
 import { type Record } from "../../types/Record";
 import NotFound from "../../components/NotFound/NotFound";
@@ -21,7 +21,6 @@ export default function RecordDetails() {
 
   return (
     <div className="max-w-[1300px] mx-auto w-full px-6 py-8 md:py-16 animate-in fade-in duration-700">
-      {/* breadcumbs */}
       <nav className="flex items-center gap-2 text-[10px] md:text-xs uppercase tracking-[0.2em] font-bold text-zinc-500 mb-10 border-b border-zinc-900 pb-6">
         <Link to="/" className="hover:text-red-600 transition-colors">
           Home
@@ -37,10 +36,7 @@ export default function RecordDetails() {
         <span className="text-red-600 truncate">{record.title}</span>
       </nav>
 
-      {/* estrutura principal com flexbox */}
       <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-start relative">
-        {/* foto fixa */}
-        {/* flex-shrink-0 para a coluna não ser esmagada */}
         <div className="w-full lg:w-[450px] flex-shrink-0 lg:sticky lg:top-24">
           <div className="relative group rounded-2xl overflow-hidden shadow-2xl shadow-black border border-zinc-800 aspect-square bg-zinc-900">
             <img
@@ -63,7 +59,6 @@ export default function RecordDetails() {
           </div>
         </div>
 
-        {/* 📝 coluna direita livre pra crescer */}
         <div className="flex-1 w-full space-y-12">
           <header>
             <h1 className="text-5xl md:text-8xl font-black uppercase tracking-tighter leading-[0.85] mb-6 text-zinc-100">
@@ -84,7 +79,6 @@ export default function RecordDetails() {
             </p>
           </section>
 
-          {/* 🎸 Spotify Player Section */}
           {record.spotifyId && (
             <section className="animate-in slide-in-from-bottom-4 duration-1000 delay-300">
               <h3 className="text-zinc-100 font-bold mb-6 uppercase tracking-[0.2em] text-xs flex items-center gap-2">

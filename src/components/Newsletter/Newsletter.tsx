@@ -16,7 +16,6 @@ export default function Newsletter() {
     return true;
   };
 
-  // função de submit com o sweetalert estilizado
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
@@ -25,9 +24,9 @@ export default function Newsletter() {
         title: "WELCOME TO THE HORDE!",
         text: "You're now on the list for the ultimate rock updates.",
         icon: "success",
-        background: "#09090b", // zinc-950
-        color: "#f4f4f5", // zinc-100
-        confirmButtonColor: "#dc2626", // red-600
+        background: "#09090b",
+        color: "#f4f4f5",
+        confirmButtonColor: "#dc2626",
         confirmButtonText: "ROCK ON!",
         buttonsStyling: true,
         customClass: {
@@ -57,7 +56,6 @@ export default function Newsletter() {
           </p>
         </div>
 
-        {/* adicionado o onSubmit e o noValidate */}
         <form
           className="w-full max-w-md flex flex-col gap-2"
           onSubmit={handleSubmit}
@@ -84,7 +82,6 @@ export default function Newsletter() {
             </button>
           </div>
 
-          {/* mensagem de erro sutil abaixo do input */}
           {error && (
             <span className="text-[10px] text-red-500 uppercase font-black tracking-widest mt-1 ml-6">
               {error}

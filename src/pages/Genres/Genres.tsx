@@ -3,12 +3,10 @@ import { ChevronRight, Music2 } from "lucide-react";
 import recordsData from "../../data/records.json";
 
 export default function Genres() {
-  // generos unicos
   const genres = [...new Set(recordsData.map((disco) => disco.genre))];
 
   return (
     <div className="max-w-[1300px] mx-auto w-full px-6 py-12 animate-in fade-in duration-700">
-      {/* breadcrumbs */}
       <nav className="flex items-center gap-2 text-[10px] md:text-xs uppercase tracking-[0.2em] font-bold text-zinc-500 mb-10 border-b border-zinc-900 pb-6 pt-4">
         <Link to="/" className="hover:text-red-600 transition-colors">
           Home
@@ -21,7 +19,6 @@ export default function Genres() {
         Explore by <span className="text-red-600">Style</span>
       </h1>
 
-      {/* generos */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {genres.map((genre) => (
           <Link
@@ -29,7 +26,6 @@ export default function Genres() {
             to={`/all-records?genre=${genre}`} // genero via URL (query params)
             className="group relative h-48 rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900 hover:border-red-600 transition-all flex items-center justify-center"
           >
-            {/* Background Decorativo */}
             <div className="absolute inset-0 opacity-10 group-hover:opacity-20 transition-opacity">
               <Music2
                 size={120}

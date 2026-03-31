@@ -167,14 +167,21 @@ export default function Header() {
                     Home
                   </li>
                 </Link>
+                <Link to="/all-records">
+                  <li className="hover:text-red-500 cursor-pointer transition-colors list-none">
+                    Albums
+                  </li>
+                </Link>
                 <Link to="/genres">
                   <li className="hover:text-red-500 cursor-pointer transition-colors list-none">
                     Genres
                   </li>
                 </Link>
-                <li className="hover:text-red-500 cursor-pointer transition-colors list-none">
-                  Contact
-                </li>
+                <Link to="/contact">
+                  <li className="hover:text-red-500 cursor-pointer transition-colors list-none">
+                    Contact
+                  </li>
+                </Link>
               </ul>
             </nav>
           )}

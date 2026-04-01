@@ -11,7 +11,6 @@ import {
 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import recordsData from "../../data/records.json";
-import { type Record } from "../../types/Record";
 
 export default function Header() {
   const navigate = useNavigate();

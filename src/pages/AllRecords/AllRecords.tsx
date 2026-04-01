@@ -2,7 +2,6 @@ import { ChevronRight } from "lucide-react";
 import { Link, useSearchParams } from "react-router-dom";
 import RecordCard from "../../components/RecordCard/RecordCard";
 import recordsData from "../../data/records.json";
-import { type Record } from "../../types/Record";
 
 export default function AllRecords() {
   const [searchParams, setSearchParams] = useSearchParams();
